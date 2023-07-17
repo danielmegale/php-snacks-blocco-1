@@ -16,6 +16,8 @@ if (str_contains($email, '.') && str_contains($email, '@')) {
 
 if (is_numeric($age)) {
     $age_valid = true;
+} else {
+    $age_valid = false;
 }
 
 ?>
